@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-image: url('yellow.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="list">
+        <h1>Lê Thành Nghĩa</h1>
+        <h2>20116351</h2>
+        <ul>
+            <li>
+                <input type="checkbox" name="item" value="item1">
+                <span>Học CSS</span>
+                <button>Delete</button>
+            </li>
+            <li>
+                <input type="checkbox" name="item" value="item2">
+                <span>Học SVM</span>
+                <button>Delete</button>
+            </li>
+            <li>
+                <input type="checkbox" name="item" value="item3">
+                <span>TBLQ</span>
+                <button>Delete</button>
+            </li>
+        </ul>
+        <input type="text" name="newItem" id="newItem">
+        <button id="add">Add Task</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
